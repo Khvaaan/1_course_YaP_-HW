@@ -16,6 +16,9 @@ else:
 '''
 
 # 3
+from random import randint
+
+ 
 def f(Man, Bot):
 	mw = "You won"
 	bw = "You lose"
@@ -27,8 +30,6 @@ def f(Man, Bot):
 	else:
 		return(bw)
 
-
-from random import randint
 
 main = ['rock', 'scissors', 'paper']
 

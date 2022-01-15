@@ -42,7 +42,7 @@ import random
 
 def matrix_el(w): # create matrix 
 	ans = []
-	for x in range(w):
+	for x in range(w): 
 		ans.append(random.choice([1, 0]))
 	ans.append(0)
 	return ans
